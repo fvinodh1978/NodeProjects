@@ -1,14 +1,37 @@
 Tips and Tricks
+===============
 
-Install kubectl steps
+ibm cloud kubernetes commands
 
-Run below command Remove-item alias:curl
-download the kubectl package curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
-check the kubectl checksum curl -LO "https://dl.k8s.io/v1.23.0/bin/windows/amd64/kubectl.exe.sha256"
-Validate the kubectl binary against the checksum file: CertUtil -hashfile kubectl.exe SHA256 type kubectl.exe.sha256
-Using PowerShell to automate the verification using the -eq operator to get a True or False result: $($(CertUtil -hashfile .\kubectl.exe SHA256)[1] -replace " ", "") -eq $(type .\kubectl.exe.sha256)
-check the kubectl version kubectl version --client
-check if able to connect to cluster kubectl config current-context
+1. Connect to your kubernetes cluster
+	ibmcloud ks cluster config --cluster <YOUR_CLUSTER_ID>
+	ibmcloud ks cluster config --cluster c9ahi9qf0j9ojfebngag
+
+Setting up kubectl
+
+1. Run below command Remove-item alias:curl
+2. download the kubectl package 
+	curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
+
+3. check the kubectl checksum 
+	curl -LO "https://dl.k8s.io/v1.23.0/bin/windows/amd64/kubectl.exe.sha256"
+
+4. Validate the kubectl binary against the checksum file: 
+	CertUtil -hashfile kubectl.exe SHA256 type kubectl.exe.sha256
+
+5. Using PowerShell to automate the verification using the -eq operator to get a True or False result: 
+	$($(CertUtil -hashfile .\kubectl.exe SHA256)[1] -replace " ", "") -eq $(type .\kubectl.exe.sha256)
+
+6. check the kubectl version 
+	kubectl version --client
+
+7. check if able to connect to cluster 
+	kubectl config current-context
+
+Kubectl commands
+
+1. List the nodes
+	kubectl get nodes
 
 ===============================================================
 
