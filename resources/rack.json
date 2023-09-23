@@ -1,0 +1,28 @@
+{
+  "rack": [
+    {
+      "Location": "Chennai",
+      "Model": "Generic Rack",
+      "Name": "Chennai01",
+      "Serial Number": "20220001"
+    },
+    {
+      "Location": "Chennai",
+      "Model": "Session Director",
+      "Name": "Chennai02",
+      "Serial Number": "20220002"
+    },
+    {
+      "Location": "Velachery",
+      "Model": "Generic Rack",
+      "Name": "Velachery01",
+      "Serial Number": "20220003"
+    },
+    {
+      "Location": "Velachery",
+      "Model": "Session Director",
+      "Name": "Velachery02",
+      "Serial Number": "20220004"
+    }
+  ]
+}

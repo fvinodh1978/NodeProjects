@@ -1,0 +1,20 @@
+{
+  "devices": [
+    {
+      "Name1": "ch4il01sds",
+      "Function Code1": "sds",
+      "Model1": "Session Director",
+      "Serial Number1": "20220001",
+      "Service1": "vcommon",
+      "Vendor1": "hp"
+    },
+    {
+      "Name1": "ch4il02sds",
+      "Function Code1": "sds",
+      "Model": "Session Director",
+      "Serial Number1": "20220002",
+      "Service1": "vcommon",
+      "Vendor1": "hp"
+    }
+  ]
+}

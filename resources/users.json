@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Vinodh",
+      "Age": 43,
+      "email": "vf1978@mt.com",
+      "job": "Engineer",
+      "company": "IBM",
+      "Address": "6A, Pushpavanam Appts, Gandhi Nagar, Chennai",
+      "pin": 629179
+    },
+    {
+      "name": "Akhila",
+      "Age": 43,
+      "email": "vf1978@mt.com",
+      "job": "mca",
+      "company": "HCL",
+      "Address": "6A, Pushpavanam Appts, Gandhi Nagar, Chennai",
+      "pin": 629179
+    }
+  ]
+}
